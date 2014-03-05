@@ -13,7 +13,12 @@ echo "Opening tabs for various downloads..."
 open -a "Safari.app" "http://www.google.com/search?q=Sublime+Text"
 open -a "Safari.app" "http://www.google.com/search?q=Sublime+Text+Package+Manager"
 open -a "Safari.app" "http://www.google.com/search?q=xcode"
-
+open -a "Safari.app" "http://www.google.com/search?q=Evernote"
+open -a "Safari.app" "http://www.google.com/search?q=Adium"
+open -a "Safari.app" "http://www.google.com/search?q=flux"
+open -a "Safari.app" "http://www.google.com/search?q=gimp"
+open -a "Safari.app" "http://www.google.com/search?q=0xED"
+ 
 echo "Setting up ~/.profile"
 if [ -e ~/.profile ]; then
 	echo "Warning: appending to an existing ~/.profile.  You may want to check the result."
@@ -45,7 +50,7 @@ brew install python
 pip install virtualenv virtualenvwrapper ipython nose pylint
 
 echo "Installing git and other programs"
-brew install git emacs wget gnuplot
+brew install git emacs wget gnuplot inkscape
 
 echo "Setting up git"
 git config --global color.ui auto
