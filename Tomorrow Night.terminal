@@ -175,6 +175,8 @@
 	</data>
 	<key>CursorType</key>
 	<integer>1</integer>
+	<key>DisableANSIColor</key>
+	<false/>
 	<key>Font</key>
 	<data>
 	YnBsaXN0MDDUAQIDBAUGGBlYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3AS
@@ -230,9 +232,9 @@
 	cnR2e4aPl5qjtbi9AAAAAAAAAQEAAAAAAAAAGQAAAAAAAAAAAAAAAAAAAL8=
 	</data>
 	<key>UseBoldFonts</key>
-	<true/>
+	<false/>
 	<key>UseBrightBold</key>
-	<true/>
+	<false/>
 	<key>name</key>
 	<string>Tomorrow Night</string>
 	<key>shellExitAction</key>
