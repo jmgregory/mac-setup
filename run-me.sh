@@ -51,7 +51,7 @@ brew install python
 pip install virtualenv virtualenvwrapper ipython nose pylint
 
 echo "Installing git and other programs"
-brew install git emacs wget gnuplot inkscape
+brew install bash-completion git emacs wget gnuplot inkscape
 
 echo "Setting up git"
 git config --global color.ui auto
