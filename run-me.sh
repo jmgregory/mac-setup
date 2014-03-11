@@ -20,6 +20,8 @@ open -a "Safari.app" "http://www.google.com/search?q=gimp"
 open -a "Safari.app" "http://www.google.com/search?q=0xED"
 open -a "Safari.app" "http://www.google.com/search?q=Menu+Meters"
 
+echo "Manual step: Add soda theme and tomorrow night colors to Sublime Text"
+
 echo "Setting up ~/.profile"
 if [ -e ~/.profile ]; then
 	echo "Warning: appending to an existing ~/.profile.  You may want to check the result."
