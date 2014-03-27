@@ -19,6 +19,7 @@ open -a "Safari.app" "http://www.google.com/search?q=flux"
 open -a "Safari.app" "http://www.google.com/search?q=gimp"
 open -a "Safari.app" "http://www.google.com/search?q=0xED"
 open -a "Safari.app" "http://www.google.com/search?q=Menu+Meters"
+open -a "Safari.app" "http://www.donkeyengineering.com/pemdaswidget/"
 
 echo "Manual step: Add soda theme and tomorrow night colors to Sublime Text"
 
