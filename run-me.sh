@@ -30,6 +30,7 @@ cat profile >> ~/.profile
 source ~/.profile
 
 echo "Adding symlink for subl (Sublime Text)"
+mkdir -p ~/bin
 ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/subl
 chmod a+x ~/bin/subl
 
@@ -39,7 +40,8 @@ if [ ! -e ~/.ssh/id_rsa.pub ]; then
 	ssh-add id_rsa
 	pbcopy < ~/.ssh/id_rsa.pub
 	echo "Key copied to clipboard. Opening github settings so you can add it..."
-	open -a "Safari.app" "https://github.com/settings"
+	open -a "Safari.app" "https://github.com/settings/ssh"
+	open -a "Safari.app" "https://bitbucket.org/account/user/atiba_jgregory/ssh-keys/"
 fi
 
 if [ -z "`which brew`" ]; then
